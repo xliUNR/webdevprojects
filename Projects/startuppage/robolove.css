@@ -1,0 +1,37 @@
+/* Multiple selectors, can select h1 and h3, or can just do it through body */
+h1, h3{
+	color: #ff0080;
+}
+
+h1{
+	font-weight: 700;
+	font-size: 4em;
+}
+
+html{
+	height: 100%;
+}
+body{
+	background: url(https://orig00.deviantart.net/e7ce/f/2014/301/d/7/bender_by_bawzon-d84gtlk.png);
+	/* will stretch to cover to fit screen */
+	background-size: cover;
+	background-position: center;
+	font-family: lato;
+}
+#content{
+	/*Using percentages for padding etc will make website more responsive*/
+	padding-top: 25%;
+	text-align: center;
+	text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+				 0px 8px 13px rgba(0,0,0,0.1),
+				 0px 18px 23px rgba(0,0,0,0.1);
+}
+
+
+hr{
+	width: 400px;
+	/* This creates a light gray "shadow" line beloiw the actual hr */
+	border-top: 1px solid #f8f8f8;
+	border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
